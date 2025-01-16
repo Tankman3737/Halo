@@ -1,28 +1,10 @@
 //
-// Attract-Mode Front-End - "Halo" sample layout
+// Attract-Mode Front-End - "Halo"  layout  By Tankman3737
+/// Thanks to @Chadnaut for the great curve and reflection shaders
 //
 
 
-class UserConfig {
-	
-    </ label="Power Grid", help="Enable / Disable Grid overlay", options="On,Off", order=4 /> grid="OFF";
 
-    </ label="Left Blade", 
-       help="Select the color of the left blade. ",
-       options="RED,BLUE,GREEN,BLACK", order=1, per_display="false" 
-    />
-      left_blade="RED";
-
-      </ label="right Blade", 
-       help="Select the color of the right blade. ",
-       options="RED,BLUE,GREEN,BLACK", order=2, per_display="false" 
-    />  
-      right_blade="RED";
-
- </ label="Single frame colour", help="Enable / Disable Grid overlay", options="BLADE DEPENDENT,RED,BLUE,GREEN,BLACK", order=3 /> framecolour=" ";
-
-}
-cfg <- fe.get_config()
 
 
 
