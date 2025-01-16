@@ -482,23 +482,26 @@ fe.add_signal_handler("interationControls");
             discpop.rotation=0   
             discpop.to_rotation=3600
             return true
+          case "back":
+                  if ( framepop.visible == true )
+                  {
+                    framepop.visible = false;
+                    framepop2.visible = false;
+                    surfacepopupB.visible = false;
+                    Textinfo.alpha=255
+                    arrowU.alpha=255
+                    return true;  
 
-            case "custom2": ///////i have it set to B//////////////
+                        return true;
+                  }
 
-          {
-             framepop.visible = false;
-            framepop2.visible = false;
-            surfacepopupB.visible = false;
-            Textinfo.alpha=255
-            arrowU.alpha=255
-            return true;  
-                        
-          }
+                  
+        }
+ 
             
 
                   
         }
-    }
 
 
 
