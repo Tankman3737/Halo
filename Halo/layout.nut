@@ -221,7 +221,7 @@ local sun=fe.add_image("assets/SS3.png",880,650,500,500)
 
 sun.anchor=Anchor.Centre
 sun.zorder=6
-local sun=fe.add_image("assets/sun5.mp4",880,650,500,500)
+local sun=fe.add_image("assets/sun5.mp4",880,650,500,500)////maybe try sun5a.mp4 if it's a smaller file size////
 sun.blend_mode=BlendMode.Add
 sun.anchor=Anchor.Centre
 sun.zorder=6
