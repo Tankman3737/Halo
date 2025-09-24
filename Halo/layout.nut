@@ -1,13 +1,23 @@
-//
-// Attract-Mode Front-End - "Halo"  layout  By Tankman3737
-/// Thanks to @Chadnaut for the great curve and reflection shaders
-//
-
-
-
-
-
-
+/**
+ * Halo Layout
+ *
+ * @summary A short description.
+ * @version 0.0.1 2025-9-24
+ * @author Tankman3737
+ * @url https://github.com/Tankman3737
+ *
+ * @requires
+ * @module animate 1.1 (Included with AM)
+ * @module config 1.1 https://github.com/oomek/attract-extra
+ * @module fade (Included with AM)
+ * @module file (Included with AM)
+ * @module file-format 1.0 (Included with AM)
+ * @module inertia 2.46 https://github.com/oomek/attract-extra
+ * @module mask 0.3.1 https://github.com/Chadnaut/Attract-Mode-Modules
+ * @module math 1.21 https://github.com/oomek/attract-extra
+ * @module perspective 0.5.4 https://github.com/Chadnaut/Attract-Mode-Modules
+ * @module wheel 1.28 https://github.com/oomek/attract-extra
+ */
 
 
 
